@@ -1,0 +1,21 @@
+.intro {
+    text-align: center;
+}
+
+.intro .userName{
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.intro .userInfo{
+    margin: 5px 0px 0px 0px;
+}
+
+.fa{
+    color:black;
+}
+
+.fa.fa-github{
+    padding: 0px 10px 0px 0px;
+}

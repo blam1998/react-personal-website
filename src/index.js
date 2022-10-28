@@ -4,16 +4,19 @@ import './index.css';
 import App from './App';
 import User from './user';
 import HorizontalSlider from './HorizontalSlider'
+import ItemBox, {project1} from "./ItemBox"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className = "userIntro">
-      <User/>
-    </div>
-    <div className = "in-progress-slider">
-      <HorizontalSlider/>
+    <div>
+      <div className = "userIntro">
+        <User/>
+      </div>
+      <div className = "in-progress-slider">
+        <ItemBox ProjectName = {project1.ProjectName} Date = {project1.Date} Summary = {project1.Summary} ShortDescription = {project1.ShortDescription} />
+      </div>
     </div>
   </React.StrictMode>
 );

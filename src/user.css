@@ -1,14 +1,14 @@
-.intro {
+.Intro {
     text-align: center;
 }
 
-.intro .userName{
+.Intro .UserName{
     color:black;
     font-weight:bold;
     font-size:20px;
 }
 
-.intro .userInfo{
+.Intro .UserInfo{
     margin: 5px 0px 0px 0px;
 }
 
@@ -16,6 +16,16 @@
     color:black;
 }
 
-.fa.fa-github{
+.UserInfo .fa.fa-github{
     padding: 0px 10px 0px 0px;
+}
+
+
+.UserInfo .fa.fa-linkedin-square{
+    padding: 0px 10px 0px 0px;
+}
+
+.UserInfo .UserResume{
+    font-weight:bold;
+    color:black;
 }

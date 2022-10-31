@@ -10,6 +10,12 @@ function Resume(){
     )
 }
 
+function Test(){
+    return(
+        <div>test1</div>
+    )
+}
+
 class user extends Component{
     constructor(props){
         super(props);
@@ -53,7 +59,7 @@ class user extends Component{
 
                 <div id = "Resume-Modal" className = "Modal" onClick = {this.handleClick}>
                     <div className = "Resume-Frame">
-                        <span className = "Modal-Close-Button" onClick = {this.handleClick} href = "#"> X </span>
+                        <span className = "Modal-Close-Button" onClick = {this.handleClick}> X </span>
                         <Resume/>
                     </div>
                 </div>

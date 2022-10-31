@@ -53,6 +53,12 @@
     background-color:rgb(235, 225, 225);
 }
 
+.Modal-Close-Button:hover{
+    font-weight:bold;
+    color:#000;
+    cursor: pointer;
+}
+
 .User-Resume{
     background-color:#fefefe;
     margin: auto;

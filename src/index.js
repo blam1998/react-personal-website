@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import User from './user';
 import HorizontalSlider from './HorizontalSlider'
-import ItemBox, {project1} from "./ItemBox"
+import {project1, ItemBox} from "./ItemBox"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

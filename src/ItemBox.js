@@ -1,5 +1,5 @@
 import "./ItemBox.css"
-
+import {Component} from "react";
 /*
 What is in an ItemBox?
 Project Name:
@@ -38,6 +38,4 @@ const project1 = {
 
 
 
-export default ItemBox;
-
-export {project1}
+export {project1 as project1, ItemBox as ItemBox}

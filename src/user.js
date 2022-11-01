@@ -1,6 +1,7 @@
 import './user.css';
+import './PopupModal.css';
 import {Component} from 'react';
-
+import PopupModal from "./PopupModal"
 
 function Resume(){
     return(
@@ -10,33 +11,14 @@ function Resume(){
     )
 }
 
-function Test(){
-    return(
-        <div>test1</div>
-    )
-}
-
 class user extends Component{
     constructor(props){
         super(props);
-        this.state = {isToggleOn: false};
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(){
-        this.setState(prevState =>({
-            isToggleOn: !prevState.isToggleOn
-            
-        }));
-        
-        if (this.state.isToggleOn){
-            document.getElementById("Resume-Modal").style.display= "block";
-        }
-        else{
-            document.getElementById("Resume-Modal").style.display = "none";
-        }
-        
-
+        document.getElementById("Popup-Modal").style.display = "block";
     }
 
     render(){
@@ -56,12 +38,8 @@ class user extends Component{
                         </nobr>
                     </div>
                 </div>
-
-                <div id = "Resume-Modal" className = "Modal" onClick = {this.handleClick}>
-                    <div className = "Resume-Frame">
-                        <span className = "Modal-Close-Button" onClick = {this.handleClick}> X </span>
-                        <Resume/>
-                    </div>
+                <div id = "Resume-Popup">
+                    <PopupModal Data = {<Resume/>} />
                 </div>
             </div>
             )

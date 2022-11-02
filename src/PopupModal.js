@@ -36,8 +36,10 @@ class PopupModal extends Component{
         return(
             <div className = "Popup-Modal" id = {"Popup-Modal+" + this.props.Id} onClick = {this.handleClick}>
                 <div className = "Popup-Modal-Inner">
-                    <span className = "Popup-Modal-Close" href = "#" onClick = {this.handleClick}>X</span>
-                    {this.props.Data}
+                    <div className = "Popup-Modal-Content">
+                        <span className = "Popup-Modal-Close" href = "#" onClick = {this.handleClick}>X</span>
+                        {this.props.Data}
+                    </div>
                 </div>
             </div>
         )

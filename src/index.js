@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import User from './user';
-import {ItemBoxFrame} from './ItemBoxFrame';
 import HorizontalSlider from './HorizontalSlider';
-import {project1, ItemBox} from "./ItemBox";
 import reportWebVitals from './reportWebVitals';
+import {InprogressStorage, CompletedStorage} from './ItemFactory'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +17,13 @@ root.render(
         <div className = "Horizontal-Slider-Title">
           What I'm Working On
         </div>
-        <HorizontalSlider/>
+        <HorizontalSlider ItemBoxArray = {InprogressStorage}/>
+      </div>
+      <div className = "Horizontal-Slider">
+        <div className = "Horizontal-Slider-Title">
+          Projects I've Done
+        </div>
+        <HorizontalSlider ItemBoxArray = {CompletedStorage}/>
       </div>
     </div>
   </React.StrictMode>

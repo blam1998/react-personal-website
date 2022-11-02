@@ -4,6 +4,12 @@ import {Component} from 'react';
 
 class PopupModal extends Component{
     constructor(props){
+        /*
+        props = {
+            Id
+            Data
+        }
+        */
         super(props);
         this.state = {
             isOpen : false,
@@ -16,17 +22,19 @@ class PopupModal extends Component{
             isOpen : !prevState.isOpen
         }));
 
+        let suffix = this.props.Id;
+
         if (this.isOpen){
-            document.getElementById("Popup-Modal").style.display = "block";
+            document.getElementById("Popup-Modal+" + suffix).style.display = "block";
         }
         else{
-            document.getElementById("Popup-Modal").style.display = "none";
+            document.getElementById("Popup-Modal+" + suffix).style.display = "none";
         }
     }
 
     render(){
         return(
-            <div id = "Popup-Modal" onClick = {this.handleClick}>
+            <div className = "Popup-Modal" id = {"Popup-Modal+" + this.props.Id} onClick = {this.handleClick}>
                 <div className = "Popup-Modal-Inner">
                     <span className = "Popup-Modal-Close" href = "#" onClick = {this.handleClick}>X</span>
                     {this.props.Data}

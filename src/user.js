@@ -18,7 +18,7 @@ class user extends Component{
     }
 
     handleClick(){
-        document.getElementById("Popup-Modal").style.display = "block";
+        document.getElementById("Popup-Modal+Resume").style.display = "block";
     }
 
     render(){
@@ -39,7 +39,7 @@ class user extends Component{
                     </div>
                 </div>
                 <div id = "Resume-Popup">
-                    <PopupModal Data = {<Resume/>} />
+                    <PopupModal Data = {<Resume/>} Id = "Resume"/>
                 </div>
             </div>
             )

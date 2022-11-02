@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import User from './user';
-import HorizontalSlider from './HorizontalSlider'
-import {project1, ItemBox} from "./ItemBox"
+import {ItemBoxFrame} from './ItemBoxFrame';
+import HorizontalSlider from './HorizontalSlider';
+import {project1, ItemBox} from "./ItemBox";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,10 +13,13 @@ root.render(
   <React.StrictMode>
     <div>
       <div className = "userIntro">
-        <User/>
+        <User ClassName = {"Resume"}/>
       </div>
-      <div className = "in-progress-slider">
-        <ItemBox ProjectName = {project1.ProjectName} Date = {project1.Date} Summary = {project1.Summary} ShortDescription = {project1.ShortDescription} />
+      <div className = "Horizontal-Slider">
+        <div className = "Horizontal-Slider-Title">
+          What I'm Working On
+        </div>
+        <HorizontalSlider/>
       </div>
     </div>
   </React.StrictMode>

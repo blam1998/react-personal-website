@@ -6,7 +6,7 @@ function GetShortDescription(props){
         <div>
             {props.ShortDescription.map((element, index) => {
                 return(
-                    <li key = {"Child" + index}>
+                    <li key = {"Child" + index} className = "ItemBox-List">
                         {element}
                     </li>
                 )
@@ -17,6 +17,14 @@ function GetShortDescription(props){
 
 class ItemBox extends Component{
     constructor(props){
+        /*
+        Props: {
+            ProjectName
+            Date
+            Summary
+            ShortDescription
+        }
+        */
         super(props);
     }
 
@@ -28,10 +36,10 @@ class ItemBox extends Component{
                         {this.props.ProjectName}
                     </div>
                     <div className = "ItemBox-Date">
-                        {this.props.Date}
+                        <b>Date: </b>{this.props.Date}
                     </div>
                     <div className = "ItemBox-Summary">
-                        {this.props.Summary}
+                        <b>Summary: </b>{this.props.Summary}
                     </div>
                     <div className = "ItemBox-ShortDescription">
                         <GetShortDescription ShortDescription = {this.props.ShortDescription}/>

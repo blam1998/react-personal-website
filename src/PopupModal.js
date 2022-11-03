@@ -17,7 +17,15 @@ class PopupModal extends Component{
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(){
+    handleClick(e){
+
+        /*Only two close events, anything else gets ignored*/
+        if (e.target.className == "Popup-Modal" || e.target.className == "Popup-Modal-Close"){
+        }
+        else{
+            return;
+        }
+
         this.setState(prevState=>({
             isOpen : !prevState.isOpen
         }));
@@ -34,10 +42,10 @@ class PopupModal extends Component{
 
     render(){
         return(
-            <div className = "Popup-Modal" id = {"Popup-Modal+" + this.props.Id} onClick = {this.handleClick}>
+            <div className = "Popup-Modal" id = {"Popup-Modal+" + this.props.Id} onClick = {(target) => this.handleClick(target)}>
                 <div className = "Popup-Modal-Inner">
                     <div className = "Popup-Modal-Content">
-                        <span className = "Popup-Modal-Close" href = "#" onClick = {this.handleClick}>X</span>
+                        <span className = "Popup-Modal-Close" href = "#" onClick = {(target) => this.handleClick(target)}>X</span>
                         {this.props.Data}
                     </div>
                 </div>

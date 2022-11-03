@@ -10,6 +10,7 @@
 
 .Intro .UserInfo{
     margin: 5px 0px 0px 0px;
+    padding-bottom: 10px;
 }
 
 .fa{
@@ -18,16 +19,19 @@
 
 .UserInfo .fa.fa-github{
     padding: 0px 10px 0px 0px;
+    text-decoration: none;
 }
 
 
 .UserInfo .fa.fa-linkedin-square{
     padding: 0px 10px 0px 0px;
+    text-decoration: none;
 }
 
 .UserInfo .UserResume{
     font-weight:bold;
     color:black;
+    text-decoration: none;
 }
 
 #Resume-Modal{
@@ -61,17 +65,13 @@
 
 .User-Resume{
     background-color:#fefefe;
-    margin: auto;
-    padding: 20px;
+    margin: 5px 5px 5px 5px;
     height:100%;
-    border: 1px solid #888;
     width: 80%;
+    z-index: 1;
+    align-items: center;
 }
 
-.Resume-Frame{
-    margin:10% 0% 0% 10%;
-    width:80%;
-}
 
 #Resume-Img{
     width: 100%;

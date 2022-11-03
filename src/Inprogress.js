@@ -32,7 +32,7 @@ const Completed = [
         "ProjectName": "Discord Bot",
         "Date": "06/2022 - 06/2022",
         "Summary": "Made a multipurpose discord bot using Python, Amazon S3, Amazon Athen, and Discord API.",
-        "Image": "./test.jpg",
+        "Image": "./test3.jpg",
         "Id": "10",
         "ShortDescription": ["Made a personal website to showcase my work as a software developer.", "Although the core of the website is done, I'm planning on adding more to the website."]
     },

@@ -18,5 +18,12 @@ code {
 }
 
 .Horizontal-Slider-Title{
-  
+  position: sticky;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.userIntro{
+  height:fit-content + 10px;
 }

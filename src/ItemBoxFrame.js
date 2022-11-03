@@ -19,6 +19,7 @@ class ItemBoxFrame extends Component{
             ItemBox
             Id
             Title
+            Image
         }
         */
         super(props);
@@ -38,7 +39,7 @@ class ItemBoxFrame extends Component{
         return(
             <div className = "ItemBoxFrame">
                 <div className = "ItemBox-Open-Frame" onClick = {this.clickHandler}>
-                    <img className = "ItemBoxFrame-Image" src = "test.jpg"></img>
+                    <img className = "ItemBoxFrame-Image" src = {this.props.Image}></img>
                 </div>
                 <PopupModal Data ={this.props.ItemBox} Id = {this.props.Id}/>
                 <div className = "ItemBox-Title">

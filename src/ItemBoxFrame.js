@@ -42,7 +42,7 @@ class ItemBoxFrame extends Component{
                     <img className = "ItemBoxFrame-Image" src = {this.props.Image}></img>
                 </div>
                 <PopupModal Data ={this.props.ItemBox} Id = {this.props.Id}/>
-                <div className = "ItemBox-Title">
+                <div className = "ItemBoxFrame-Title">
                     {this.props.Title}
                 </div>
 

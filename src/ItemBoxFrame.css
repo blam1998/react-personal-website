@@ -1,5 +1,7 @@
-#ItemBoxFrame{
+.ItemBoxFrame{
     display: inline-block;
+    width: 250px;
+    height: 260px;
 }
 
 .ItemBox-Open-Frame{
@@ -15,6 +17,11 @@
     display: inline-block;
 }
 
-.ItemBox-Title{
+.ItemBoxFrame-Title{
+    overflow-x: hidden;
+    text-overflow:ellipsis;
     text-align: center;
+    font-weight: bold;
+    width: 250px;
+    padding-top: 5px;
 }

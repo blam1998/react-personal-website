@@ -64,12 +64,9 @@
 }
 
 .User-Resume{
-    background-color:#fefefe;
-    margin: 5px 5px 5px 5px;
-    height:100%;
-    width: 80%;
-    z-index: 1;
-    align-items: center;
+    margin: 10% 5% 10% 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 

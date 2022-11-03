@@ -19,7 +19,9 @@
     min-height:30vh;
     max-height:60%;
     overflow: auto;
-    background-color:white;
+    overflow-x: hidden;
+    background-color: inherit;
+    background-color: rgba(255, 255, 255, 0.8)
 }
 
 .Popup-Modal-Close{
@@ -39,9 +41,6 @@
     cursor: pointer;
 }
 
-.Popup-Modal-Content{
-    background-color:aqua;
-}
 
 .User-Resume{
     margin: 10% 10% 10% 10%;

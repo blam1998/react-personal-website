@@ -1,26 +1,44 @@
 .ItemBox-List{
     list-style-position: inside;
-    padding-top: 4px;
+    float:left;
+    height:auto;
+    white-space: normal;
+    word-wrap:break-word;
+    padding-top: 8px;
+    width: 100%;
+}
+
+
+.ItemBox-ShortDescription{
+    width: inherit;
+    height: auto;
 }
 
 .ItemBox-Project-Name{
-    padding-top: 4px;
     font-weight: bold;
+    height:auto;
+    white-space: normal;
+    word-wrap:break-word;
+    padding-top: 8px;
+    width: 100%;
 }
 
 .ItemBox-Summary{
-    padding-top: 4px;
+    height:auto;
+    white-space: normal;
+    word-wrap:break-word;
+    padding-top: 8px;
+    width: 100%;
 }
 
 .ItemBox-Date{
-    padding-top: 4px;
+    height:auto;
+    white-space: normal;
+    word-wrap:break-word;
+    padding-top: 8px;
+    width: 100%;
 }
 
-.ItemBox-Title{
-    text-align: center;
-    font-weight: bold;
-    padding-top: 5px;
-}
 
 
 

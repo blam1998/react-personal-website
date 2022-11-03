@@ -1,0 +1,26 @@
+.ItemBox-List{
+    list-style-position: inside;
+    padding-top: 4px;
+}
+
+.ItemBox-Project-Name{
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.ItemBox-Summary{
+    padding-top: 4px;
+}
+
+.ItemBox-Date{
+    padding-top: 4px;
+}
+
+.ItemBox-Title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+

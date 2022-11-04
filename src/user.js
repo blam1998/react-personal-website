@@ -6,7 +6,7 @@ import PopupModal from "./PopupModal"
 function Resume(){
     return(
         <div className = "User-Resume">
-            <img id = "Resume-Img" src = "test.jpg"></img>
+            <img id = "Resume-Image" src = "./Resume.jpg" alt = "Tommy gae"></img>
         </div>
     )
 }
@@ -30,11 +30,11 @@ class user extends Component{
                     </div>
                     <div className = "UserInfo">
                         <nobr>
-                            <a  href = "https://github.com/blam1998" className = "fa fa-github">
+                            <a  href = "https://github.com/blam1998" className = "fa fa-github" title = "Github">
                             </a>
-                            <a  href = "https://www.linkedin.com/in/bao-lam-le-431175225/details/projects/" className = "fa fa-linkedin-square">
+                            <a  href = "https://www.linkedin.com/in/bao-lam-le-431175225/details/projects/" className = "fa fa-linkedin-square" Title = "Linkedin">
                             </a>
-                            <a className = "UserResume" href = "#" onClick = {this.handleClick}>Resume</a>
+                            <a className = "fa fa-file" href = "#" onClick = {this.handleClick} title = "Resume"></a>
                         </nobr>
                     </div>
                 </div>

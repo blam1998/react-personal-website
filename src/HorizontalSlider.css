@@ -12,6 +12,7 @@
     overflow-y: hidden;
     width: 100%;
     height: 320px;
+    background-color: white;
 }
 
 .HorizontalSlider-Inner-Frame{

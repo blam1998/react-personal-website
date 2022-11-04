@@ -37,12 +37,12 @@ class ItemBoxFrame extends Component{
 
     render(){
         return(
-            <div className = "ItemBoxFrame">
+            <div className = "ItemBoxFrame" title = {document.getElementById("ItemBox+" + this.props.Id).innerHTML}>
                 <div className = "ItemBox-Open-Frame" onClick = {this.clickHandler}>
                     <img className = "ItemBoxFrame-Image" src = {this.props.Image}></img>
                 </div>
                 <PopupModal Data ={this.props.ItemBox} Id = {this.props.Id}/>
-                <div className = "ItemBoxFrame-Title">
+                <div id = {"ItemBox+"+this.props.Id} className = "ItemBoxFrame-Title">
                     {this.props.Title}
                 </div>
 

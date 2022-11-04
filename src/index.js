@@ -14,15 +14,15 @@ root.render(
         <User ClassName = {"Resume"}/>
       </div>
       <div className = "Horizontal-Slider">
-        <div className = "Horizontal-Slider-Title">
+        <h1 className = "Horizontal-Slider-Title">
           What I'm Working On
-        </div>
+        </h1>
         <HorizontalSlider ItemBoxArray = {InprogressStorage}/>
       </div>
       <div className = "Horizontal-Slider">
-        <div className = "Horizontal-Slider-Title">
+        <h1 className = "Horizontal-Slider-Title">
           Projects I've Done
-        </div>
+        </h1>
         <HorizontalSlider ItemBoxArray = {CompletedStorage}/>
       </div>
     </div>

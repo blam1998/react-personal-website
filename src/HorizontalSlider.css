@@ -5,7 +5,6 @@
 }
 
 .HorizontalSlider-Outer-Frame{
-    border: 2px solid;
     white-space:nowrap;
     display:block;
     overflow-x:auto;

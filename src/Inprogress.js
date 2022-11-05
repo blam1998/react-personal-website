@@ -12,11 +12,13 @@ const Inprogress = [
         "ProjectName": "Personal Website (React)",
         "Date": "10/28/2022 - 11/3/2022",
         "Summary": "Made a new personal website using React.",
-        "Image": "./test.jpg",
+        "Image": "./ReactWebsite.jpg",
         "Id": "00",
         "ShortDescription": ["Made a personal website to showcase my work as a software developer.",
          "Although the core of the website is done, I'm planning on adding more to the website in the future, which is why it's still in this section.",
-        ]
+        ],
+        "Github": "https://github.com/blam1998/react-personal-website",
+        "Youtube": "None"
     }
 ];
 
@@ -35,7 +37,19 @@ const Completed = [
         "Bot will reply with the requested information.",
         "Color roulette game is a gambling system that uses fake virtual currency. The user can place a bet and choose a color to start the roulette. After the" + 
         " command is entered through discord chat, the bot will run its algorithm and tell you if you win or not. If you win it will update your data to Amazon S3" + 
-        " through Amazon Athena."]
+        " through Amazon Athena."],
+        "Github": "https://github.com/blam1998/Corgi-Bot",
+        "Youtube": "None"
+    },
+    {
+        "ProjectName": "Artificial Intelligent Model for 8-Tile Puzzle Game",
+        "Date": "05/2021 - 06/2021",
+        "Summary": "A School project made with C++ to familiarize myself with the concept of artificial intelligence.",
+        "Image": "./Ai.jpg",
+        "Id": "14",
+        "ShortDescription": ["Applied A* path finding algorithm with different heuristics to solve the 8-tile puzzle.",
+        "Applied a brute force algorithm to solve the problem and compare the differences between the artificial intelligence model and the 'bad' solution."],
+        "Github": "https://github.com/blam1998/8-Tile-Puzzle"
     },
     {
         "ProjectName": "Food Nutrition Search Engine",
@@ -45,7 +59,8 @@ const Completed = [
         "Id": "11",
         "ShortDescription": ["The website has one search bar that allows you to type search the desired food.",
         "Once you submit your search query, the website will communicate with an online API and returns the said information.",
-        "This website was made for the sole purpose of learning, so the design was quite simple."]
+        "This website was made for the sole purpose of learning, so the design was quite simple."],
+        "Github": "https://github.com/blam1998/Personal-Website"
     },
     {
         "ProjectName": "Personal Website (Old)",
@@ -56,7 +71,8 @@ const Completed = [
         "ShortDescription": ["This website was made in conjunction with the Food Nutrition Search Engine.",
         "The purpose of making this website was to learn HTML, CSS and other frameworks.",
         "The website contains a section that displays my past projects.",
-        "The website contains a section that displays my skills and my social media links."]
+        "The website contains a section that displays my skills and my social media links."],
+        "Github": "https://github.com/blam1998/Personal-Website"
     },
     {
         "ProjectName": "Exploit Linux Vulnerabilities for Root Access",
@@ -66,20 +82,12 @@ const Completed = [
         "Id": "13",
         "ShortDescription": ["Used use-after-free and list vulnerability to gain root access.",
         "View kernel properties and identify possible weaknesses and create an exploit to gain root access to a user's device.",
-        "This was a school project and it is done on old Linux images, no one was hacked in the process of doing this project."]
-    },
-    {
-        "ProjectName": "Artificial Intelligent Model for 8-Tile Puzzle Game",
-        "Date": "05/2021 - 06/2021",
-        "Summary": "A School project made with C++ to familiarize myself with the concept of artificial intelligence.",
-        "Image": "./Ai.jpg",
-        "Id": "14",
-        "ShortDescription": ["Applied A* path finding algorithm with different heuristics to solve the 8-tile puzzle.",
-        "Applied a brute force algorithm to solve the problem and compare the differences between the artificial intelligence model and the 'bad' solution."]
+        "This was a school project and it is done on old Linux images, no one was hacked in the process of doing this project."],
+        "Github": "#"
     },
     {
         "ProjectName": "Mini-Language interpreter (Bison)",
-        "Date": "09/2020 - 01/2020",
+        "Date": "09/2020 - 01/2021",
         "Summary": "Created a lexical analyzer, syntax parser, and run-time code interpreter to read in mini-language files and convert to mini-language intermediate code.",
         "Image": "./Bison.jpg",
         "Id": "15",
@@ -88,8 +96,10 @@ const Completed = [
         "Used Bison to create a parser to check for grammatical errors within the mini-language ﬁle.",
         "Used the syntactically correct grammar mini-language ﬁle and translated it into intermediate code, which was then given to"+
         "mini-language compiler to produce its output.",
-        "This project was a school project and was created using C++."]
+        "This project was a school project and was created using C++."],
+        "Github": "https://github.com/blam1998/BISON-Compiler"
     }
+    //15
 ]
 
 export {Inprogress as Inprogress, Completed as Completed}

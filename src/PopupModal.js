@@ -36,6 +36,9 @@ class PopupModal extends Component{
             document.getElementById("Popup-Modal+" + suffix).style.display = "block";
         }
         else{
+            if (document.getElementById("Video+" + suffix) != null){
+                document.getElementById("Video+" + suffix).pause();
+            }
             document.getElementById("Popup-Modal+" + suffix).style.display = "none";
         }
     }

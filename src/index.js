@@ -2,29 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import User from './user';
-import HorizontalSlider from './HorizontalSlider';
+import Project from './Project';
 import reportWebVitals from './reportWebVitals';
-import {InprogressStorage, CompletedStorage} from './ItemFactory'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
-      <div className = "userIntro">
-        <User ClassName = {"Resume"}/>
-      </div>
-      <div className = "Horizontal-Slider">
-        <h1 className = "Horizontal-Slider-Title">
-          What I'm Working On
-        </h1>
-        <HorizontalSlider ItemBoxArray = {InprogressStorage}/>
-      </div>
-      <div className = "Horizontal-Slider">
-        <h1 className = "Horizontal-Slider-Title">
-          Projects I've Done
-        </h1>
-        <HorizontalSlider ItemBoxArray = {CompletedStorage}/>
-      </div>
+      <Router>
+        <div className = "userIntro">
+          <User ClassName = {"Navigation-Bar"}/>
+        </div>
+        <Routes>
+          <Route exact path = '/Projects' element = {<Project/>} />
+        </Routes>
+      </Router>
     </div>
   </React.StrictMode>
 );

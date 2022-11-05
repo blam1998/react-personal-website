@@ -13,17 +13,14 @@ code {
     monospace;
 }
 
-.Horizontal-Slider{
-  margin: 20px 20px 20px 20px;
-}
-
-.Horizontal-Slider-Title{
-  position: sticky;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 3px;
-}
-
 .userIntro{
   height:fit-content + 10px;
+}
+
+html{
+  background-color:rgba(248, 200, 220,0.3)
+}
+
+#root{
+  background-color:rgba(248, 200, 220,0.3)
 }

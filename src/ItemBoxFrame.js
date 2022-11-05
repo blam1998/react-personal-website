@@ -1,5 +1,5 @@
 import "./ItemBoxFrame.css"
-import {Children, Component} from "react";
+import {Component} from "react";
 import React from 'react';
 import PopupModal from './PopupModal';
 import {ItemBox} from './ItemBox'
@@ -37,9 +37,9 @@ class ItemBoxFrame extends Component{
 
     render(){
         return(
-            <div className = "ItemBoxFrame" title = {document.getElementById("ItemBox+" + this.props.Id).innerHTML}>
+            <div className = "ItemBoxFrame">
                 <div className = "ItemBox-Open-Frame" onClick = {this.clickHandler}>
-                    <img className = "ItemBoxFrame-Image" src = {this.props.Image}></img>
+                    <img className = "ItemBoxFrame-Image" src = {this.props.Image} title = {this.props.Title}></img>
                 </div>
                 <PopupModal Data ={this.props.ItemBox} Id = {this.props.Id}/>
                 <div id = {"ItemBox+"+this.props.Id} className = "ItemBoxFrame-Title">

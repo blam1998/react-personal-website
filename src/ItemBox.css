@@ -9,12 +9,9 @@
 }
 
 
-.ItemBox-ShortDescription{
-    width: inherit;
-    height: auto;
-}
 
 .ItemBox-Project-Name{
+    display: block;
     font-weight: bold;
     height:auto;
     white-space: normal;
@@ -23,15 +20,14 @@
     width: 100%;
 }
 
-.ItemBox-Summary{
-    height:auto;
-    white-space: normal;
-    word-wrap:break-word;
-    padding-top: 8px;
-    width: 100%;
+.ItemBox-Project-Name .fa.fa-github{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
 }
 
 .ItemBox-Date{
+    display: block;
     height:auto;
     white-space: normal;
     word-wrap:break-word;
@@ -39,6 +35,37 @@
     width: 100%;
 }
 
+.ItemBox-Summary{
+    display: block;
+    height:auto;
+    white-space: normal;
+    word-wrap:break-word;
+    padding-top: 8px;
+    width: 100%;
+}
+
+.ItemBox-ShortDescription{
+    width: inherit;
+    height: fit-content;
+    display: block;
+}
 
 
+.ItemBox-Video{
+    display: block;
+    height: 60%;
+    width: 80%;
+}
 
+.ItemBox-Youtube-Div{
+    position: relative;
+    padding-top: 5%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ItemBox-Outer-Frame{
+    height: fit-content;
+}

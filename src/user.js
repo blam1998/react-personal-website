@@ -40,7 +40,7 @@ class user extends Component{
                     <NavLink className = "User-Nav-Icons" to = "/Projects" activeStyle>Projects</NavLink>
                 </div>
                 <div className = "User-Nav-Div">
-                    <NavLink className = "User-Nav-Icons" to = "/About" activeStyle>About</NavLink>
+                    <NavLink className = "User-Nav-Icons" to = "/" activeStyle>About</NavLink>
                 </div>
                 
                 <div id = "Resume-Popup">

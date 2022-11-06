@@ -1,0 +1,80 @@
+
+.About-Me-Framework{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.About-Me-Background-Div{
+    position: relative;
+    width: 50%;
+    height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.About-Me-Header{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+.About-Me-Background-Info{
+    padding: 10px 10px 10px 10px;
+    margin-left: 10%;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-left: 20px double;
+    border-color: #FFC0CB
+}
+
+.About-Me-Background-Info:hover{
+    padding: 8px 10px 8px 10px;
+    border-top: 2px dashed #FFC0CB;
+    border-bottom: 2px dashed #FFC0CB;
+    border-right: 2px dashed #FFC0CB;
+}
+
+
+.Skills-Outer-Frame{
+    margin: 10% 0% 0% 10%;
+    position: relative;
+
+}
+
+.Skills-Header{
+    padding-left: 30px;
+}
+.Skills-Slider-Frame{
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 50%;
+    height: 10%;
+    background-color: white;
+}
+
+.Skills-Element{
+    vertical-align:center;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.Skills-Element img{
+    padding: 10px 0px 0px 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.caption{
+    text-align: center;
+    display:block;
+}

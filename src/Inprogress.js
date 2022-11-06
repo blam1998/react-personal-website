@@ -14,11 +14,16 @@ const Inprogress = [
         "Summary": "Made a new personal website using React.",
         "Image": "./ReactWebsite.jpg",
         "Id": "00",
-        "ShortDescription": ["Made a personal website to showcase my work as a software developer.",
+        "ShortDescription": ["Made a personal website to introduce myself and showcase my work as a software developer.",
+         "I'm planning on adding a Leetcode section to my website as a way to help myself and possibly help others. The Leetcode section would include" + 
+         " commonly seen algorithms and strategies to approach them. It should also have a section for new Leetcoders and a structured list of leetcode problems" +
+         " with solution and explanation for beginners.", 
+         "Video is added directly instead of embedded within an Iframe for better user experience with my current design.",
          "Although the core of the website is done, I'm planning on adding more to the website in the future, which is why it's still in this section.",
         ],
         "Github": "https://github.com/blam1998/react-personal-website",
-        "Youtube": "None"
+        "Languages": ["React", "Javascript"],
+        "Readme": "filepath"
     }
 ];
 
@@ -39,7 +44,7 @@ const Completed = [
         " command is entered through discord chat, the bot will run its algorithm and tell you if you win or not. If you win it will update your data to Amazon S3" + 
         " through Amazon Athena."],
         "Github": "https://github.com/blam1998/Corgi-Bot",
-        "Youtube": "None"
+        "Languages": ["Python", "Amazon Athena", "Amazon S3", "SQL"]
     },
     {
         "ProjectName": "Artificial Intelligent Model for 8-Tile Puzzle Game",
@@ -49,7 +54,8 @@ const Completed = [
         "Id": "14",
         "ShortDescription": ["Applied A* path finding algorithm with different heuristics to solve the 8-tile puzzle.",
         "Applied a brute force algorithm to solve the problem and compare the differences between the artificial intelligence model and the 'bad' solution."],
-        "Github": "https://github.com/blam1998/8-Tile-Puzzle"
+        "Github": "https://github.com/blam1998/8-Tile-Puzzle",
+        "Languages": "C++"
     },
     {
         "ProjectName": "Food Nutrition Search Engine",
@@ -60,7 +66,8 @@ const Completed = [
         "ShortDescription": ["The website has one search bar that allows you to type search the desired food.",
         "Once you submit your search query, the website will communicate with an online API and returns the said information.",
         "This website was made for the sole purpose of learning, so the design was quite simple."],
-        "Github": "https://github.com/blam1998/Personal-Website"
+        "Github": "https://github.com/blam1998/Personal-Website",
+        "Languages": ["Javascript", "Jquery", "Ajax", "ExpressJS","Pug"]
     },
     {
         "ProjectName": "Personal Website (Old)",
@@ -72,7 +79,8 @@ const Completed = [
         "The purpose of making this website was to learn HTML, CSS and other frameworks.",
         "The website contains a section that displays my past projects.",
         "The website contains a section that displays my skills and my social media links."],
-        "Github": "https://github.com/blam1998/Personal-Website"
+        "Github": "https://github.com/blam1998/Personal-Website",
+        "Languages": ["Javascript", "Jquery", "ExpressJS","Pug"]
     },
     {
         "ProjectName": "Exploit Linux Vulnerabilities for Root Access",
@@ -83,7 +91,8 @@ const Completed = [
         "ShortDescription": ["Used use-after-free and list vulnerability to gain root access.",
         "View kernel properties and identify possible weaknesses and create an exploit to gain root access to a user's device.",
         "This was a school project and it is done on old Linux images, no one was hacked in the process of doing this project."],
-        "Github": "#"
+        "Github": "#",
+        "Languages": ["C++"]
     },
     {
         "ProjectName": "Mini-Language interpreter (Bison)",
@@ -97,7 +106,8 @@ const Completed = [
         "Used the syntactically correct grammar mini-language ﬁle and translated it into intermediate code, which was then given to"+
         "mini-language compiler to produce its output.",
         "This project was a school project and was created using C++."],
-        "Github": "https://github.com/blam1998/BISON-Compiler"
+        "Github": "https://github.com/blam1998/BISON-Compiler",
+        "Languages": ["C++"]
     }
     //15
 ]

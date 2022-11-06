@@ -4,6 +4,7 @@ import './index.css';
 import User from './user';
 import Project from './Project';
 import reportWebVitals from './reportWebVitals';
+import About from './About';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
         </div>
         <Routes>
           <Route exact path = '/Projects' element = {<Project/>} />
+          <Route exact path = '/' element = {<About/>} />
         </Routes>
       </Router>
     </div>

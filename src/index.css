@@ -17,10 +17,7 @@ code {
   height:fit-content + 10px;
 }
 
-html{
-  background-color:rgba(248, 200, 220,0.3)
-}
-
-#root{
-  background-color:rgba(248, 200, 220,0.3)
+body{
+  background-image: url("/public/body_background.jpg");
+  background-size: cover;
 }

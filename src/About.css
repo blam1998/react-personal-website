@@ -21,22 +21,24 @@
     margin-left: 10%;
     padding-left: 30px;
     margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .About-Me-Background-Info{
+    font-size: 20px;
     padding: 10px 10px 10px 10px;
     margin-left: 10%;
     display: inline-block;
-    width: 50%;
+    width: 80%;
     height: 100%;
     border-left: 20px double;
-    border-color: #FFC0CB
+    border-color: black;
 }
 
 .About-Me-Background-Info:hover{
     padding: 8px 10px 8px 10px;
-    border-top: 2px dashed #FFC0CB;
-    border-bottom: 2px dashed #FFC0CB;
-    border-right: 2px dashed #FFC0CB;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    border-right: 2px dashed black;
 }
 
 
@@ -55,7 +57,7 @@
     position: relative;
     overflow-y: hidden;
     overflow-x: scroll;
-    width: 50%;
+    width: 80%;
     height: 10%;
     background-color: white;
 }

@@ -28,7 +28,9 @@ const CompletedStorage = []
 function CreateItem(Data, Storage){
     Data.map((element,index) =>{
         Storage.push(<ItemBoxFrame ItemBox = {<ItemBox ProjectName = {element.ProjectName} Date = {element.Date} Summary = {element.Summary} 
-            ShortDescription = {element.ShortDescription} Github = {element.Github} Id = {element.Id}/>} Id = {element.Id} Title = {element.ProjectName} Image = {element.Image}/>)
+            ShortDescription = {element.ShortDescription} Github = {element.Github}
+             Id = {element.Id} Languages = {element.Languages}
+             VideoSrc = {element.VideoSrc} VideoTitle = {element.VideoTitle} Readme = {element.Readme} />} Id = {element.Id} Title = {element.ProjectName} Image = {element.Image}/>)
     })
 }
 

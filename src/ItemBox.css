@@ -13,7 +13,6 @@
 .ItemBox-Project-Name{
     display: block;
     font-weight: bold;
-    height:auto;
     white-space: normal;
     word-wrap:break-word;
     padding-top: 8px;
@@ -24,6 +23,21 @@
     color: black;
     text-decoration: none;
     padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.ItemBox-Languages{
+    padding-top: 8px;
+}
+
+.ItemBox-Languages-Elements{
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,1);
+    font-weight: bold;
 }
 
 .ItemBox-Date{
@@ -68,4 +82,22 @@
 
 .ItemBox-Outer-Frame{
     height: fit-content;
+}
+
+.Readme-Div{
+    margin-top: 5%;
+    position: relative;
+    padding-top: 56.25%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.Readme-Iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }

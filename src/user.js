@@ -8,7 +8,7 @@ import React from 'react';
 function Resume(){
     return(
         <div className = "User-Resume">
-            <img id = "Resume-Image" src = "./Resume.jpg" alt = "Tommy gae"></img>
+            <iframe src="./Resume.pdf#toolbar=0" width="100%" height="500px" > </iframe>
         </div>
     )
 }
